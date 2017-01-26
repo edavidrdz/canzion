@@ -1,0 +1,22 @@
+var res = {
+	'items' : [
+		{'url':'backup=2&tstamp='+(new Date().getTime()), 'txt':'<div style="font-size:8pt; line-height:1.2; color:#0000e0">[A]l actualizar tu iPhone puedes perder tus<br>favoritos. <font color=#f08040><u>Respalda/Restaura ahora</u></font></div>'},
+		{ 'url':'b=jesus_adrian_romero', 'txt':'Jesús Adrián Romero'},
+		{ 'url':'b=jesus_alvarado', 'txt':'Jesús Alvarado'},
+		{ 'url':'b=jesus_es_senior', 'txt':'Jesús es Señor'},
+		{ 'url':'b=jesus_manuel_estrada', 'txt':'Jesús Manuel Estrada'},
+		{ 'url':'b=jesus_ojeda', 'txt':'Jesús Ojeda'},
+		{ 'url':'b=jesus_sevillano', 'txt':'Jesus Sevillano'},
+		{ 'url':'b=jesus_vasquez', 'txt':'Jesús Vasquez'},
+		{ 'url':'b=adictos_a_jesus', 'txt':'Adictos a Jesús'},
+		{ 'url':'b=generacion_de_jesus', 'txt':'Generación de Jesús'},
+		{ 'url':'b=misioneros_de_jesus', 'txt':'Misioneros de Jesus'},
+		{ 'url':'b=seguidores_de_jesus', 'txt':'Seguidores de Jesús'},
+		{ 'txt':'más de 50 canciones corresponden.'}
+	]
+};
+
+DEFAULT_FILL={'items':[
+	{'url':'backup=2&tstamp='+(new Date().getTime()), 'txt':'<div style="font-size:8pt; line-height:1.2; color:#0000e0">Al actualizar tu iPhone puedes perder tus<br>favoritos. <font color=#f08040><u>Respalda/Restaura ahora</u></font></div>'}, 
+	{'txt' : 'Indica por lo menos 3 letras de la canción o del artista que buscas.'},
+	{'txt' : '(3 espacios = borrar todo)'} ] };
